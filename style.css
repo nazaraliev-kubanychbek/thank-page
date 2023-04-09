@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.wrapper{
+    max-width: 1140px;
+    position: relative;
+    margin: 0 auto;
+    height: 100vh;
+    padding-top: 150px;
+}
+
+.wrapper h1{
+    text-align: center;
+    color: #a42e7c;
+    font-size: 56px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.wrapper-bg{
+    background-image: url("./thanks-bg.jpg");
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
+    -webkit-filter: blur(5px);
+    top: 0;
+    left: 0;
+}
+
+@media screen and (max-width: 500px) {
+ .wrapper h1{
+     font-size: 25px;
+     margin-top: 50px;
+ }
+}
+
